@@ -5,121 +5,236 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Elizabeth Arriagada</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portafolio Elizabeth Arriagada</title>
 </head>
 
 <body>
-    <header>
-        
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Elizabeth</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="titulo">Elizabeth Arriagada F</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Presentacion</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Conocimientos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Portafolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Contacto</a>
-                  </li>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Hero-Section">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Conocimientos">Conocimientos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Mis-trabajos">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+
                 </ul>
-              </div>
+
             </div>
-          </nav>
-        <nav>
-        </nav>
-    </header>
-    <section class="background-1 height-general" id="home">
+        </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-end py-5 mt-5 background-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-2 text-center">
+            <div class="col-sd-12 col-md-4 ">
+                <img class="logo-hero w-100 my-5" src="/assets/imgs/fondo-hero.png" alt="imagen hero">
+            </div>
+            <div class="col-sd-12 col-md-7 text-light">
+                <h3 class="section-subheading">Desarrolladora web.</h3>
+                <h1 class="section-heading text-faded">Elizabeth Arriagada F.</h1>
+                <p class="my-5">
                     
-                    <a href="#contacto" class="page-scroll btn btn-default btn-xl sr-button">Contactame</a>
-                </div>
-                <div class="col-lg-6 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Desarrolladora web.</h2>
-                    <p class="text-faded">Elizabeth Arriagada</p>
-                    <p>
-                        Educadora de Párvulos de profesion, titulada en la Universidad Central de Chile en el año 2013. Luego de
-                        muchos años de experiencia quise emprender un nuevo desafio, la programación es algo que me apaciona, soy
-                        estudiante en Desafio LATAM en el que he aprendido y pulido mis tecnicas como Desarrolladora Frontend</p>
-                    <h2>Caracteristicas</h2>
-                        <ul>
-                        <li>Trabajo en equipo</li>
-                        <li>Proactividad</li>
-                        <li>Autodidacta</li>
-                        <li>Empatia</li>
-                        <li>Responsabilidad</li>
-                    </ul>
+                    Educadora de Párvulos de profesion, titulada en la Universidad Central de Chile en el año 2013. Luego de
+                    muchos años de experiencia quise emprender un nuevo desafio, la programación es algo que me apaciona, soy
+                    estudiante en Desafio LATAM en el que he aprendido y pulido mis tecnicas como Desarrolladora Frontend
+                </p>
+                <h2>Caracteristicas</h2>
+                <ul>
+                    <li><i class="fa fa-check-circle color-info"></i>Trabajo en equipo</li>
+                    <li><i class="fa fa-check-circle color-info"></i>Proactividad</li>
+                    <li><i class="fa fa-check-circle color-info"></i>Autodidacta</li>
+                    <li><i class="fa fa-check-circle color-info"></i>Empatia</li>
+                    <li><i class="fa fa-check-circle color-info"></i>Responsabilidad</li>
+                </ul>
+                <div class="mb-5 pb-5">
+                    <a href="#Contacto" class="btn btn-lg btn-info text-light">Contacto</a>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="Conocimientos" class="background-2 height-general">
-        <h1>Conocimientos técnicos y habilidades
-        </h1>
-        <div class="container text-center">
-            <div class="row">
-              <div class="col col-sm-12 card-caracteristicas">
-                <i class="far fa-eye" aria-hidden="true"> </i>
-                HTML
-              </div>
-              <div class="col col-sm-12 card-caracteristicas">
-                <i class="far fa-eye" aria-hidden="true"> </i>
-                css
-              </div>
-              <div class="col col-sm-12 card-caracteristicas">
-                <i class="far fa-eye" aria-hidden="true"> </i>
-                Boostrap
-              </div>
-              <div class="col col-sm-12 card-caracteristicas">
-                <i class="far fa-eye" aria-hidden="true"> </i>
-                Git/GitHub
-              </div>
+        </div>
+    </header>
+
+
+    <section id="Conocimientos" class="container text-center my-5">
+
+
+        <h2 class="display-3 fw-bold my-4">Conocimientos técnicos y habilidades</h2>
+
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <i class="fab fa-html5 fa-3x my-3 color-html"></i>
+                <h3 class="my-3 fw-bold color-html">HTML</h3>
             </div>
-          </div>
+            <div class="col-12 col-md-3">
+                <i class="fab fa-css3 fa-3x my-3 color-css"></i>
+                <h3 class="my-3 fw-bold color-css">css</h3>
+            </div>
+            <div class="col-12 col-md-3">
+                <i class="fab fa-bootstrap fa-3x my-3 color-boostrap"></i>
+                <h3 class="my-3 fw-bold color-boostrap">Boostrap</h3>
+            </div>
+            <div class="col-12 col-md-3">
+                <i class="fab fa-git-alt fa-3x my-3 color-git"></i>
+                <h3 class="my-3 fw-bold color-git">Git</h3>
+            </div>
+        </div>
     </section>
-    <section id="Portafolio" class="background-3 height-general">
-        <h1>Portafolio desarrollador web Front-End
-        </h1>
-       <div>
-        **Falta agregar 5 card
-       </div>
+
+
+    <section id="Mis-trabajos" class="my-5 p-5 background-1 ">
+
+        <h2 class="display-4 text-light fw-bold text-center mb-3">Portafolio desarrollador web Front-End</h2>
+
+        <div class="row">
+            <div class="col-12 col-md-4 py-2">
+                <div class="card">
+                    <img src="/assets/imgs/proyecto-pasteleria.png" alt="proyecto pasteleria">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Pasteleria</h5>
+                        <p class="card-text">
+                            Proyecto hecho con html y css.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 py-2">
+                <div class="card">
+                    <img src="/assets/imgs/proyecto-iguanapage.png" alt="proyecto iguanapage">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Iguanapage</h5>
+                        <p class="card-text">
+                            Proyecto hecho en base a una maqueta
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 py-2">
+                <div class="card">
+                    <img src="/assets/imgs/proyecto-cuppon.png" alt="proyecto cuppon">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cuppon</h5>
+                        <p class="card-text">
+                            primera aplicacion hecha con boostrap
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 py-2">
+                <div class="card">
+                    <img src="/assets/imgs/proyecto-git.png" alt="proyecto git">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">fdsw-github</h5>
+                        <p class="card-text">
+                            Primer proyecto usando git
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                        <a type="button" target="_blank" href="https://github.com/eliArriagada/fdsw-github" class="btn btn-outline-info">
+                            Repositorio
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 py-2">
+                <div class="card">
+                    <img src="/assets/imgs/proyecto-portafolio.png" alt="proyecto Portafolio">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Portafolio</h5>
+                        <p class="card-text">
+                            Este portafolio
+                        </p>
+                        <a type="button" target="_blank" href="https://github.com/eliArriagada/portafolio"  class="btn btn-outline-info">
+                            Repositorio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
-    <section id="Contacto" class="background-4 height-general">
-        <h1>Contacto
-        </h1>
-       <div>
-       <input placeholder="Nombre">
-       <input placeholder="Email">
-       <input placeholder="Mensaje" aria-multiline="true">
-       <button>Enviar</button>
-       </div>
+
+
+
+    <section id="Contacto" class="container my-5">
+
+        <h2 class="display-4 fw-bold text-center my-4">Contacto</h2>
+
+        <form>
+
+
+            <div class="form-group mb-4">
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+
+            <div class="form-group">
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-end">
+                <button class="btn btn-info text-light">Enviar</button>
+            </div>
+
+
+
+        </form>
+
     </section>
-    <footer>
-       <p>Fecha de nacimiento: 22 agosto 1987</p> 
+
+
+
+    <footer class="bg-dark text-center text-light p-4">
+        <p>Fecha de nacimiento: 22 agosto 1987</p> 
         <p>Nacionalidad: Chilena</p> 
             <p>Comuna: Quilicura</p> 
-                <p>Correo: eli.arriagadaf@gmail.com</p> 
+                <p>Correo: <a href="mailto:eli.arriagadaf@gmail.com">eli.arriagadaf@gmail.com</a></p> 
                     <p>Sitio: Linkedin</p> 
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
